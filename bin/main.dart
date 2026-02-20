@@ -4,5 +4,9 @@ interacted with in the terminal
 Version 1.0
 Author Robert Thurber
  */
+import '../lib/Prompt.dart';
 
-void main() {}
+void main() {
+  var message = Prompt();
+  message.message();
+}
